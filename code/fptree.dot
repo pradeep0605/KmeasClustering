@@ -1,0 +1,45 @@
+digraph dg 
+{
+0 [ style=bold label="'0'\n0" ]
+1 [ style=bold label="'k'\n5" ]
+10 [ style=bold label="'e'\n1" ]
+11 [ style=bold label="'m'\n1" ]
+12 [ style=bold label="'a'\n1" ]
+13 [ style=bold label="'m'\n1" ]
+14 [ style=bold label="'y'\n1" ]
+15 [ style=bold label="'c'\n1" ]
+16 [ style=bold label="'u'\n1" ]
+2 [ style=bold label="'o'\n3" ]
+3 [ style=bold label="'e'\n2" ]
+4 [ style=bold label="'m'\n1" ]
+5 [ style=bold label="'y'\n1" ]
+6 [ style=bold label="'n'\n1" ]
+7 [ style=bold label="'y'\n1" ]
+8 [ style=bold label="'n'\n1" ]
+9 [ style=bold label="'d'\n1" ]
+17 [ style=bold label="'o'\n1" ]
+18 [ style=bold label="'e'\n1" ]
+19 [ style=bold label="'c'\n1" ]
+20 [ style=bold label="'i'\n1" ]
+0->1
+1->10
+10->11
+11->12
+1->13
+13->14
+14->15
+15->16
+1->2
+2->3
+3->4
+4->5
+5->6
+3->7
+7->8
+8->9
+2->17
+17->18
+18->19
+19->20
+
+}

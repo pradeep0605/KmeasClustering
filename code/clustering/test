@@ -1,0 +1,9 @@
+set term png
+set output "00.png"
+set trange [0:2*pi]
+set parametric
+r=20
+fx(t)=r*cos(t)
+fy(t)=r*sin(t)
+plot fx(t),fy(t)
+
